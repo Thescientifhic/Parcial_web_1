@@ -1,0 +1,17 @@
+.food-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.hotels-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.destinations-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
