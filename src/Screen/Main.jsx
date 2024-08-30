@@ -1,7 +1,7 @@
 import Layout from "../Components/Layout/Layout"
 import Booking from "../Components/booking/booking";
 import { useState } from "react";
-import "./screen.css"
+import "./main.css"
 
 function Main (){
 
@@ -14,9 +14,9 @@ function Main (){
     return(
         <>
 
-        <div>
-            <h1>Paquete</h1>
-
+        <h1>Paquete</h1>
+        <div className="main-container">
+            
             <Booking 
                 titulo={selectedP?.titulo} 
                 cost={selectedP?.precio}
